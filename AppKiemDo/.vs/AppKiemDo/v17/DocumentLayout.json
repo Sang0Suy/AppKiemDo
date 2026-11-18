@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AppKiemDo\\AppKiemDo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\appkiemdo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\appkiemdo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|solutionrelative:appkiemdo.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\entities\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\entities\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.application\\dtos\\submitdailyrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|solutionrelative:appkiemdo.application\\dtos\\submitdailyrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\entities\\dailyrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\entities\\dailyrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.api\\controllers\\sheetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C24DF69-FD08-49A3-AF32-07099D3DE78D}|AppKiemDo.API\\AppKiemDo.API.csproj|solutionrelative:appkiemdo.api\\controllers\\sheetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.application\\services\\dynamiccalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|solutionrelative:appkiemdo.application\\services\\dynamiccalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.application\\interfaces\\icalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|solutionrelative:appkiemdo.application\\interfaces\\icalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.application\\appkiemdo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|solutionrelative:appkiemdo.application\\appkiemdo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.infrastructure\\appkiemdo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|solutionrelative:appkiemdo.infrastructure\\appkiemdo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\entities\\sheettemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\entities\\sheettemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\enums\\calculationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\enums\\calculationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.domain\\appkiemdo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46312660-A3CB-424A-9F02-8B348B9D836B}|AppKiemDo.Domain\\AppKiemDo.Domain.csproj|solutionrelative:appkiemdo.domain\\appkiemdo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D561ED41-5902-4C03-ACD3-9117A1DD30E9}|AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj|solutionrelative:appkiemdo.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|d:\\appkiemdo\\appkiemdo\\appkiemdo.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6964B36-631C-4048-AA05-389830D15E4F}|AppKiemDo.Application\\AppKiemDo.Application.csproj|solutionrelative:appkiemdo.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\appsettings.json",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\appsettings.json",
+              "RelativeToolTip": "AppKiemDo.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-28T18:40:38.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Entities\\AuditLog.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T22:47:39.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Infrastructure\\Data\\MongoDbContext.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "AppKiemDo.Infrastructure\\Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:39:35.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Program.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Program.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Program.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv0YAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:41:07.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AppKiemDo.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-04T21:01:46.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAEwG8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:56:30.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DailyRecord.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\DailyRecord.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Entities\\DailyRecord.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\DailyRecord.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Entities\\DailyRecord.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:35:02.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAA1wH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T17:51:46.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppKiemDo.API.csproj",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\AppKiemDo.API.csproj",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\AppKiemDo.API.csproj",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\AppKiemDo.API.csproj",
+              "RelativeToolTip": "AppKiemDo.API\\AppKiemDo.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-28T18:23:08.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubmitDailyRecordDto.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\DTOs\\SubmitDailyRecordDto.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Application\\DTOs\\SubmitDailyRecordDto.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\DTOs\\SubmitDailyRecordDto.cs",
+              "RelativeToolTip": "AppKiemDo.Application\\DTOs\\SubmitDailyRecordDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T17:02:21.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Items.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\Items.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Entities\\Items.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\Items.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Entities\\Items.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:34:30.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T23:09:38.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventoryHub.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Hubs\\InventoryHub.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Hubs\\InventoryHub.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Hubs\\InventoryHub.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Hubs\\InventoryHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:05:28.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Controllers\\UploadController.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T20:15:13.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T19:29:35.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SheetsController.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\SheetsController.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.API\\Controllers\\SheetsController.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.API\\Controllers\\SheetsController.cs",
+              "RelativeToolTip": "AppKiemDo.API\\Controllers\\SheetsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:51:54.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICalculationService.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Interfaces\\ICalculationService.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Application\\Interfaces\\ICalculationService.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Interfaces\\ICalculationService.cs",
+              "RelativeToolTip": "AppKiemDo.Application\\Interfaces\\ICalculationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:42:38.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DynamicCalculationService.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Services\\DynamicCalculationService.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Application\\Services\\DynamicCalculationService.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Services\\DynamicCalculationService.cs",
+              "RelativeToolTip": "AppKiemDo.Application\\Services\\DynamicCalculationService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:43:29.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppKiemDo.Application.csproj",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\AppKiemDo.Application.csproj",
+              "RelativeDocumentMoniker": "AppKiemDo.Application\\AppKiemDo.Application.csproj",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\AppKiemDo.Application.csproj",
+              "RelativeToolTip": "AppKiemDo.Application\\AppKiemDo.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-28T18:22:10.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SheetTemplate.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\SheetTemplate.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Entities\\SheetTemplate.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Entities\\SheetTemplate.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Entities\\SheetTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:34:03.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CalculationType.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Enums\\CalculationType.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\Enums\\CalculationType.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\Enums\\CalculationType.cs",
+              "RelativeToolTip": "AppKiemDo.Domain\\Enums\\CalculationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:33:16.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppKiemDo.Domain.csproj",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\AppKiemDo.Domain.csproj",
+              "RelativeDocumentMoniker": "AppKiemDo.Domain\\AppKiemDo.Domain.csproj",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Domain\\AppKiemDo.Domain.csproj",
+              "RelativeToolTip": "AppKiemDo.Domain\\AppKiemDo.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-28T18:29:13.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppKiemDo.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj",
+              "RelativeToolTip": "AppKiemDo.Infrastructure\\AppKiemDo.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-28T18:22:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "AppKiemDo.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:21:20.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "AppKiemDo.Application\\Class1.cs",
+              "ToolTip": "D:\\AppKiemDo\\AppKiemDo\\AppKiemDo.Application\\Class1.cs",
+              "RelativeToolTip": "AppKiemDo.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:20:39.626Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

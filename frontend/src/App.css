@@ -1,0 +1,45 @@
+﻿/* TỐI ƯU CHO ĐIỆN THOẠI (Dưới 768px) */
+@media (max-width: 768px) {
+    /* 1. Thu nhỏ lề hai bên để tiết kiệm diện tích */
+    .container {
+        padding: 10px !important;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* 2. Thanh Tabs (chọn tờ kiểm): Cho phép vuốt ngang thay vì rớt dòng */
+    .tabs {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch; /* Vuốt mượt trên iOS */
+    }
+
+        .tabs button {
+            flex-shrink: 0; /* Không bị bóp méo nút */
+            padding: 10px 15px !important;
+        }
+
+    /* 3. Nhóm nút thao tác: Xếp dọc lại, tràn viền 100% */
+    .action-group {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 10px;
+    }
+
+        .action-group button,
+        .action-group div,
+        .action-group input {
+            width: 100% !important;
+            margin: 0 !important;
+            box-sizing: border-box;
+        }
+
+        .action-group input {
+            margin-top: 5px !important;
+        }
+}

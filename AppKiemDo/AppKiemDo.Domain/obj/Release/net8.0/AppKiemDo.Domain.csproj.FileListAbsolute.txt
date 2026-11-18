@@ -1,0 +1,12 @@
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\bin\Release\net8.0\AppKiemDo.Domain.deps.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\bin\Release\net8.0\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\bin\Release\net8.0\AppKiemDo.Domain.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.AssemblyInfoInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.AssemblyInfo.cs
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.csproj.CoreCompileInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\refint\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\ref\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Domain\obj\Release\net8.0\AppKiemDo.Domain.csproj.AssemblyReference.cache

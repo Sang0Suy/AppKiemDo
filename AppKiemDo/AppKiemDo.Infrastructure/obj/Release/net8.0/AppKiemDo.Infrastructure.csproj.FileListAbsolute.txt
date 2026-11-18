@@ -1,0 +1,17 @@
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Infrastructure.deps.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Infrastructure.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Infrastructure.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Application.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\bin\Release\net8.0\AppKiemDo.Domain.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.csproj.AssemblyReference.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.AssemblyInfoInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.AssemblyInfo.cs
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemD.DE33B478.Up2Date
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\refint\AppKiemDo.Infrastructure.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\AppKiemDo.Infrastructure.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Infrastructure\obj\Release\net8.0\ref\AppKiemDo.Infrastructure.dll

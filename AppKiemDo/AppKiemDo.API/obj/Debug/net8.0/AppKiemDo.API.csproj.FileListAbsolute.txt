@@ -1,0 +1,152 @@
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\appsettings.Development.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\appsettings.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.staticwebassets.endpoints.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.exe
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.deps.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.runtimeconfig.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DnsClient.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ExtendedNumerics.BigDecimal.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Core.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Domain.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Parser.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Parlot.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\SharpCompress.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Snappier.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.Collections.Immutable.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ZstdSharp.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Application.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Domain.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Infrastructure.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Application.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Infrastructure.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Domain.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.csproj.AssemblyReference.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.AssemblyInfoInputs.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.AssemblyInfo.cs
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.csproj.CoreCompileInputs.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.MvcApplicationPartsAssemblyInfo.cs
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.MvcApplicationPartsAssemblyInfo.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\scopedcss\bundle\AppKiemDo.API.styles.css
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemD.B81EBED9.Up2Date
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\refint\AppKiemDo.API.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.genruntimeconfig.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\ref\AppKiemDo.API.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ClosedXML.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\RBush.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\appsettings.Development.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\appsettings.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.staticwebassets.endpoints.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.exe
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.deps.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.runtimeconfig.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.API.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ClosedXML.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DnsClient.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ExtendedNumerics.BigDecimal.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Core.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\NCalc.Parser.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Parlot.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\RBush.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\SharpCompress.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Snappier.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.Collections.Immutable.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\ZstdSharp.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Infrastructure.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Application.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Infrastructure.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Debug\net8.0\AppKiemDo.Domain.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.csproj.AssemblyReference.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.AssemblyInfoInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.AssemblyInfo.cs
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.csproj.CoreCompileInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.MvcApplicationPartsAssemblyInfo.cs
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.MvcApplicationPartsAssemblyInfo.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\scopedcss\bundle\AppKiemDo.API.styles.css
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemD.B81EBED9.Up2Date
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\refint\AppKiemDo.API.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\AppKiemDo.API.genruntimeconfig.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\ref\AppKiemDo.API.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\AppKiemDo\AppKiemDo\AppKiemDo.API\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2026-09-13T15:07:38.9182922Z||;True|2026-09-13T21:41:22.0505376+07:00||;True|2026-09-13T11:54:11.9235331+07:00||;True|2026-09-13T11:40:30.2530389+07:00||;True|2026-09-13T11:38:58.4437390+07:00||;True|2026-09-13T11:16:40.4050808+07:00||;True|2026-09-12T23:36:46.7947179+07:00||;True|2026-09-12T20:11:59.1409847+07:00||;True|2026-09-12T19:35:13.2387779+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

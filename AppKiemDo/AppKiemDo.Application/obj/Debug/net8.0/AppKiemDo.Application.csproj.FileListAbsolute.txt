@@ -1,0 +1,30 @@
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.deps.json
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Domain.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Domain.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.csproj.AssemblyReference.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.AssemblyInfoInputs.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.AssemblyInfo.cs
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.csproj.CoreCompileInputs.cache
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemD.E9FF5D9E.Up2Date
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\refint\AppKiemDo.Application.dll
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.pdb
+D:\App Kiểm Đồ\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\ref\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.deps.json
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Application.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Domain.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\bin\Debug\net8.0\AppKiemDo.Domain.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.csproj.AssemblyReference.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.AssemblyInfoInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.AssemblyInfo.cs
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.csproj.CoreCompileInputs.cache
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemD.E9FF5D9E.Up2Date
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\refint\AppKiemDo.Application.dll
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\AppKiemDo.Application.pdb
+D:\AppKiemDo\AppKiemDo\AppKiemDo.Application\obj\Debug\net8.0\ref\AppKiemDo.Application.dll
