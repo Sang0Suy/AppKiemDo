@@ -1,0 +1,8 @@
+.git
+**/.vs
+**/bin
+**/obj
+**/node_modules
+frontend/android
+frontend/dist
+frontend/dist.zip
