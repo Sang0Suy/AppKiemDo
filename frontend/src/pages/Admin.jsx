@@ -2,6 +2,7 @@
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import { ROOT_URL, API_BASE_URL } from '../config'
 
 function Admin() {
     const [sheets, setSheets] = useState([])
@@ -32,8 +33,6 @@ function Admin() {
     const [locations, setLocations] = useState('')
     const [displayOrder, setDisplayOrder] = useState('') // 🌟 STATE MỚI CHO THỨ TỰ
 
-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
-    const API_BASE_URL = `${ROOT_URL}/api`;
     const navigate = useNavigate()
 
     // 🌟 LOGIC TÌM KIẾM VÀ PHÂN TRANG ĐÃ ĐƯỢC BẢO VỆ
@@ -121,7 +120,7 @@ function Admin() {
 
         try {
             const token = localStorage.getItem('token');
-            await axios.post('http://sangop14-001-site1.ctempurl.com/api/Auth/create-user', {
+            await axios.post(`${API_BASE_URL}/Auth/create-user`, {
                 Username: empUsername,
                 Password: empPassword,
                 FullName: empFullName

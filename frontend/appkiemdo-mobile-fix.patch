@@ -1,0 +1,164 @@
+diff --git a/frontend/src/config.js b/frontend/src/config.js
+new file mode 100644
+index 0000000..344ed95
+--- /dev/null
++++ b/frontend/src/config.js
+@@ -0,0 +1,26 @@
++import { Capacitor } from '@capacitor/core';
++
++// Địa chỉ máy chủ thật (backend ASP.NET đang chạy trên SmarterASP).
++// Nên đổi sang https:// khi bạn có chứng chỉ SSL (bắt buộc cho iOS khi lên App Store).
++const PRODUCTION_SERVER = 'http://sangop14-001-site1.ctempurl.com';
++
++// true khi đang chạy trong app Android/iOS (Capacitor), false khi chạy trên trình duyệt.
++export const IS_NATIVE = Capacitor.isNativePlatform();
++
++function resolveRootUrl() {
++    // Cho phép ép địa chỉ bằng biến môi trường: tạo file frontend/.env với dòng VITE_API_URL=https://...
++    if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
++
++    // Trong app mobile, window.location.hostname cũng là "localhost" (đó là địa chỉ nội bộ của app),
++    // nên phải kiểm tra native TRƯỚC khi kiểm tra localhost.
++    if (IS_NATIVE) return PRODUCTION_SERVER;
++
++    // Chạy dev trên máy tính: backend ở localhost:5270.
++    if (window.location.hostname === 'localhost') return 'http://localhost:5270';
++
++    // Web đã deploy chung với backend: dùng đường dẫn gốc.
++    return '';
++}
++
++export const ROOT_URL = resolveRootUrl();
++export const API_BASE_URL = `${ROOT_URL}/api`;
+diff --git a/frontend/src/pages/Admin.jsx b/frontend/src/pages/Admin.jsx
+index 6daf03c..33fbf40 100644
+--- a/frontend/src/pages/Admin.jsx
++++ b/frontend/src/pages/Admin.jsx
+@@ -2,6 +2,7 @@
+ import axios from 'axios'
+ import { useNavigate } from 'react-router-dom'
+ import { toast } from 'react-toastify'
++import { ROOT_URL, API_BASE_URL } from '../config'
+ 
+ function Admin() {
+     const [sheets, setSheets] = useState([])
+@@ -32,8 +33,6 @@ function Admin() {
+     const [locations, setLocations] = useState('')
+     const [displayOrder, setDisplayOrder] = useState('') // 🌟 STATE MỚI CHO THỨ TỰ
+ 
+-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
+-    const API_BASE_URL = `${ROOT_URL}/api`;
+     const navigate = useNavigate()
+ 
+     // 🌟 LOGIC TÌM KIẾM VÀ PHÂN TRANG ĐÃ ĐƯỢC BẢO VỆ
+@@ -121,7 +120,7 @@ function Admin() {
+ 
+         try {
+             const token = localStorage.getItem('token');
+-            await axios.post('http://sangop14-001-site1.ctempurl.com/api/Auth/create-user', {
++            await axios.post(`${API_BASE_URL}/Auth/create-user`, {
+                 Username: empUsername,
+                 Password: empPassword,
+                 FullName: empFullName
+diff --git a/frontend/src/pages/Dashboard.jsx b/frontend/src/pages/Dashboard.jsx
+index d26be39..18efb37 100644
+--- a/frontend/src/pages/Dashboard.jsx
++++ b/frontend/src/pages/Dashboard.jsx
+@@ -2,6 +2,7 @@
+ import axios from 'axios';
+ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+ import { useNavigate } from 'react-router-dom';
++import { API_BASE_URL } from '../config';
+ 
+ function Dashboard() {
+     const [sheets, setSheets] = useState([]);
+@@ -9,9 +10,6 @@ function Dashboard() {
+     const [stats, setStats] = useState({ TotalChecks: 0, TopItems: [] });
+     const navigate = useNavigate();
+ 
+-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
+-    const API_BASE_URL = `${ROOT_URL}/api`;
+-
+     useEffect(() => {
+         axios.get(`${API_BASE_URL}/Sheets`)
+             .then(res => {
+diff --git a/frontend/src/pages/Home.jsx b/frontend/src/pages/Home.jsx
+index 4d9efb6..c2c83d5 100644
+--- a/frontend/src/pages/Home.jsx
++++ b/frontend/src/pages/Home.jsx
+@@ -10,6 +10,7 @@ import { Capacitor } from '@capacitor/core';
+ import 'ag-grid-community/styles/ag-grid.css'
+ import 'ag-grid-community/styles/ag-theme-alpine.css'
+ import '../App.css'
++import { ROOT_URL, API_BASE_URL } from '../config'
+ 
+ ModuleRegistry.registerModules([AllCommunityModule])
+ 
+@@ -57,8 +58,6 @@ function Home() {
+     const [allGridData, setAllGridData] = useState([]);
+     const [uncheckedAlert, setUncheckedAlert] = useState({ show: false, items: [], type: '' });
+ 
+-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
+-    const API_BASE_URL = `${ROOT_URL}/api`;
+     const gridRef = useRef(null)
+     const activeSheetIdRef = useRef(activeSheetId);
+     const checkDateRef = useRef(checkDate);
+diff --git a/frontend/src/pages/Login.jsx b/frontend/src/pages/Login.jsx
+index b9fb98a..ba5d8d9 100644
+--- a/frontend/src/pages/Login.jsx
++++ b/frontend/src/pages/Login.jsx
+@@ -2,11 +2,7 @@
+ import axios from 'axios'
+ import { useNavigate } from 'react-router-dom'
+ import { toast } from 'react-toastify'
+-
+-// Tự động chọn localhost:5270 khi chạy trên máy, và dùng đường dẫn gốc khi đưa lên SmarterASP
+-const API_BASE_URL = window.location.hostname === 'localhost'
+-    ? 'http://localhost:5270/api'
+-    : '/api';
++import { API_BASE_URL, IS_NATIVE } from '../config'
+ 
+ function Login() {
+     const [username, setUsername] = useState('')
+@@ -95,22 +91,25 @@ function Login() {
+                     {isLoading ? 'ĐANG XỬ LÝ...' : 'ĐĂNG NHẬP'}
+                 </button>
+             </form>
+-            <div style={{ marginTop: '20px', textAlign: 'center' }}>
+-                <p style={{ color: '#666', fontSize: '14px', marginBottom: '10px' }}>
+-                    📱 Trải nghiệm tốt hơn trên thiết bị di động
+-                </p>
+-                <a
+-                    href="/downloads/AppKiemDo.zip"
+-                    download
+-                    style={{
+-                        display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
+-                        backgroundColor: '#4CAF50', color: 'white', textDecoration: 'none',
+-                        borderRadius: '25px', fontWeight: 'bold', fontSize: '15px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+-                    }}
+-                >
+-                    ⬇️ Tải App Android (.APK)
+-                </a>
+-            </div>
++            {/* Ẩn link tải APK khi đã đang chạy trong app */}
++            {!IS_NATIVE && (
++                <div style={{ marginTop: '20px', textAlign: 'center' }}>
++                    <p style={{ color: '#666', fontSize: '14px', marginBottom: '10px' }}>
++                        📱 Trải nghiệm tốt hơn trên thiết bị di động
++                    </p>
++                    <a
++                        href="/downloads/AppKiemDo.zip"
++                        download
++                        style={{
++                            display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
++                            backgroundColor: '#4CAF50', color: 'white', textDecoration: 'none',
++                            borderRadius: '25px', fontWeight: 'bold', fontSize: '15px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
++                        }}
++                    >
++                        ⬇️ Tải App Android (.APK)
++                    </a>
++                </div>
++            )}
+         </div>
+     )
+ }

@@ -2,17 +2,19 @@
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-
-// Tự động chọn localhost:5270 khi chạy trên máy, và dùng đường dẫn gốc khi đưa lên SmarterASP
-const API_BASE_URL = window.location.hostname === 'localhost'
-    ? 'http://localhost:5270/api'
-    : '/api';
+import { API_BASE_URL, IS_NATIVE } from '../config'
 
 function Login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [isLoading, setIsLoading] = useState(false)
     const navigate = useNavigate()
+
+    // Nhận diện iPhone và chế độ đã cài PWA ra màn hình chính
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
+    const isStandalone =
+        window.matchMedia('(display-mode: standalone)').matches ||
+        window.navigator.standalone === true
 
     const handleLogin = async (e) => {
         e.preventDefault()
@@ -40,7 +42,6 @@ function Login() {
         } catch (error) {
             console.error("Chi tiết lỗi đăng nhập:", error);
 
-            // Phân loại lỗi rõ ràng thay vì báo chung chung
             if (error.response) {
                 if (error.response.status === 401 || error.response.status === 400) {
                     toast.error('Sai tài khoản hoặc mật khẩu!')
@@ -56,7 +57,7 @@ function Login() {
     }
 
     return (
-        <div style={{ maxWidth: '400px', margin: '100px auto', padding: '30px', border: '1px solid #ccc', borderRadius: '8px', backgroundColor: '#fff', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+        <div style={{ maxWidth: '400px', width: '90%', margin: '60px auto', padding: '30px', border: '1px solid #ccc', borderRadius: '8px', backgroundColor: '#fff', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', boxSizing: 'border-box' }}>
             <h2 style={{ textAlign: 'center', marginBottom: '20px', color: '#333' }}>QUẢN TRỊ HỆ THỐNG</h2>
             <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                 <input
@@ -95,22 +96,34 @@ function Login() {
                     {isLoading ? 'ĐANG XỬ LÝ...' : 'ĐĂNG NHẬP'}
                 </button>
             </form>
-            <div style={{ marginTop: '20px', textAlign: 'center' }}>
-                <p style={{ color: '#666', fontSize: '14px', marginBottom: '10px' }}>
-                    📱 Trải nghiệm tốt hơn trên thiết bị di động
-                </p>
-                <a
-                    href="/downloads/AppKiemDo.zip"
-                    download
-                    style={{
-                        display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        backgroundColor: '#4CAF50', color: 'white', textDecoration: 'none',
-                        borderRadius: '25px', fontWeight: 'bold', fontSize: '15px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
-                    }}
-                >
-                    ⬇️ Tải App Android (.APK)
-                </a>
-            </div>
+
+            {/* Ẩn khi đang chạy trong app Android hoặc PWA iOS */}
+            {!IS_NATIVE && !isStandalone && (
+                <div style={{ marginTop: '20px', textAlign: 'center' }}>
+                    {isIOS ? (
+                        <p style={{ color: '#555', fontSize: '13px', backgroundColor: '#f0f7ff', padding: '10px', borderRadius: '8px', border: '1px solid #bae0ff', margin: 0 }}>
+                            📲 <strong>Cài App lên iPhone:</strong> Bấm nút <strong>Chia sẻ (↑)</strong> ở dưới Safari → chọn <strong>Thêm vào MH chính</strong>.
+                        </p>
+                    ) : (
+                        <>
+                            <p style={{ color: '#666', fontSize: '14px', marginBottom: '10px' }}>
+                                📱 Trải nghiệm tốt hơn trên thiết bị di động
+                            </p>
+                            <a
+                                href="/downloads/AppKiemDo.zip"
+                                download
+                                style={{
+                                    display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
+                                    backgroundColor: '#4CAF50', color: 'white', textDecoration: 'none',
+                                    borderRadius: '25px', fontWeight: 'bold', fontSize: '15px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+                                }}
+                            >
+                                ⬇️ Tải App Android (.APK)
+                            </a>
+                        </>
+                    )}
+                </div>
+            )}
         </div>
     )
 }

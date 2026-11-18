@@ -1,4 +1,17 @@
-﻿/* TỐI ƯU CHO ĐIỆN THOẠI (Dưới 768px) */
+﻿html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 100dvh;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    box-sizing: border-box;
+}
+
+/* TỐI ƯU CHO ĐIỆN THOẠI (Dưới 768px) */
 @media (max-width: 768px) {
     /* 1. Thu nhỏ lề hai bên để tiết kiệm diện tích */
     .container {

@@ -2,15 +2,13 @@
 import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useNavigate } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 function Dashboard() {
     const [sheets, setSheets] = useState([]);
     const [activeSheetId, setActiveSheetId] = useState('');
     const [stats, setStats] = useState({ TotalChecks: 0, TopItems: [] });
     const navigate = useNavigate();
-
-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
-    const API_BASE_URL = `${ROOT_URL}/api`;
 
     useEffect(() => {
         axios.get(`${API_BASE_URL}/Sheets`)

@@ -10,6 +10,7 @@ import { Capacitor } from '@capacitor/core';
 import 'ag-grid-community/styles/ag-grid.css'
 import 'ag-grid-community/styles/ag-theme-alpine.css'
 import '../App.css'
+import { ROOT_URL, API_BASE_URL } from '../config'
 
 ModuleRegistry.registerModules([AllCommunityModule])
 
@@ -24,7 +25,6 @@ function Home() {
     const [sheets, setSheets] = useState([])
     const [activeSheetId, setActiveSheetId] = useState(null)
     const [loading, setLoading] = useState(true)
-    //const [items, setItems] = useState([])
 
     const [rowData, setRowData] = useState([])
     const [pastDatesState, setPastDatesState] = useState([])
@@ -52,13 +52,10 @@ function Home() {
         itemName: '',
         colName: ''
     });
-
     const [reviewMode, setReviewMode] = useState(false);
     const [allGridData, setAllGridData] = useState([]);
     const [uncheckedAlert, setUncheckedAlert] = useState({ show: false, items: [], type: '' });
 
-    const ROOT_URL = window.location.hostname === 'localhost' ? 'http://localhost:5270' : '';
-    const API_BASE_URL = `${ROOT_URL}/api`;
     const gridRef = useRef(null)
     const activeSheetIdRef = useRef(activeSheetId);
     const checkDateRef = useRef(checkDate);
@@ -150,7 +147,6 @@ function Home() {
                 const itemsRes = await axios.get(`${API_BASE_URL}/Sheets/${activeSheetId}/items`);
                 let fetchedItems = itemsRes.data || [];
                 fetchedItems.sort((a, b) => (a.displayOrder || 0) - (b.displayOrder || 0) || a.id.localeCompare(b.id));
-                //setItems(fetchedItems);
 
                 const uniqueLocations = new Set();
                 fetchedItems.forEach(item => {
@@ -325,7 +321,7 @@ function Home() {
             });
         });
 
-        // 🌟 KHI CLICK VÀO Ô SẼ BẬT MÁY TÍNH NỔI (BỎ HOÀN TOÀN CƠ CHẾ EDIT CŨ CỦA AG-GRID)
+        // 🌟 KHI CLICK VÀO Ô SẼ BẬT MÁY TÍNH NỔI
         const openCalculator = (params) => {
             if (!isEditing) return;
             if (params.colDef.field === 'actualBaseWeight' && params.data.calculationType !== 1) return;
@@ -417,7 +413,6 @@ function Home() {
             .filter(row => (row.rawInput && String(row.rawInput).trim() !== '') || (row.unopenedInput && String(row.unopenedInput).trim() !== ''))
             .map(row => ({
                 itemId: row.id,
-                // Lấy kết quả đã chia gửi thẳng làm số liệu Hàng Lẻ
                 rawInput: String(row.rawInput || ''),
                 unopenedInput: String(row.unopenedInput || ''),
                 actualBaseWeight: row.actualBaseWeight ? parseFloat(row.actualBaseWeight) : null
@@ -458,13 +453,10 @@ function Home() {
         const toastId = toast.loading("⏳ Đang tạo báo cáo Excel...");
 
         try {
-            // Lấy file dạng Blob (Dữ liệu thô)
             const response = await axios.get(`${API_BASE_URL}/Inventory/export/${activeSheetId}`, { responseType: 'blob' });
             const fileName = `BaoCaoKiemDo_${activeSheetId}_${checkDate}.xlsx`;
 
             if (Capacitor.isNativePlatform()) {
-                // 🌟 CHẠY TRÊN APP MOBILE (NATIVE)
-                // Phải chuyển Blob sang Base64 để lưu bằng Filesystem
                 const reader = new FileReader();
                 reader.readAsDataURL(response.data);
                 reader.onloadend = async () => {
@@ -473,7 +465,7 @@ function Home() {
                         await Filesystem.writeFile({
                             path: fileName,
                             data: base64Data,
-                            directory: Directory.Documents, // Lưu vào thư mục Documents của điện thoại
+                            directory: Directory.Documents,
                         });
                         toast.update(toastId, { render: `✅ Đã lưu Excel vào thư mục Tài liệu (Documents)!`, type: "success", isLoading: false, autoClose: 5000 });
                     } catch (e) {
@@ -482,7 +474,6 @@ function Home() {
                     }
                 };
             } else {
-                // 🌟 CHẠY TRÊN WEB MÁY TÍNH (Cách cũ)
                 const url = window.URL.createObjectURL(new Blob([response.data]));
                 const link = document.createElement('a');
                 link.href = url;
@@ -490,6 +481,7 @@ function Home() {
                 document.body.appendChild(link);
                 link.click();
                 link.remove();
+                setTimeout(() => window.URL.revokeObjectURL(url), 1000);
                 toast.update(toastId, { render: "✅ Tải Excel thành công!", type: "success", isLoading: false, autoClose: 3000 });
             }
         } catch (error) {
@@ -513,18 +505,18 @@ function Home() {
     if (loading) return <h2 style={{ textAlign: 'center', marginTop: '50px' }}>Đang tải dữ liệu...</h2>
 
     return (
-        <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', padding: '5px', boxSizing: 'border-box', position: 'relative' }}>
+        <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '5px', boxSizing: 'border-box', position: 'relative' }}>
 
-            {/* 🌟 MÁY TÍNH NỔI TOÀN CỤC (FLOATING CALCULATOR MODAL) */}
+            {/* 🌟 MÁY TÍNH NỔI TOÀN CỤC (Tối ưu cảm ứng iOS & Android) */}
             {calcModal.isOpen && (
                 <div style={{
-                    position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+                    position: 'fixed', inset: 0,
                     backgroundColor: 'rgba(0,0,0,0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 99999
                 }} onClick={() => setCalcModal(prev => ({ ...prev, isOpen: false }))}>
 
                     <div style={{
-                        backgroundColor: '#fff', border: '2px solid #2196F3', borderRadius: '12px', padding: '20px', width: '300px',
-                        boxShadow: '0 8px 30px rgba(0,0,0,0.3)', textAlign: 'left'
+                        backgroundColor: '#fff', border: '2px solid #2196F3', borderRadius: '12px', padding: '20px', width: '300px', maxWidth: '90vw',
+                        boxShadow: '0 8px 30px rgba(0,0,0,0.3)', textAlign: 'left', boxSizing: 'border-box'
                     }} onClick={e => e.stopPropagation()}>
 
                         <div style={{ backgroundColor: '#e6f7ff', color: '#0050b3', padding: '10px', borderRadius: '8px', marginBottom: '15px', textAlign: 'center', border: '1px solid #91d5ff' }}>
@@ -539,8 +531,9 @@ function Home() {
                                 style={{ flex: 1, padding: '12px', fontSize: '22px', boxSizing: 'border-box', border: '1px solid #ccc', borderRadius: '6px', textAlign: 'right', fontWeight: 'bold', color: '#1890ff', backgroundColor: '#fff', outline: 'none' }}
                             />
                             <button
-                                onMouseDown={(e) => { e.preventDefault(); setCalcModal(prev => ({ ...prev, value: prev.value.slice(0, -1) })); }}
-                                style={{ padding: '0 15px', backgroundColor: '#fff1f0', color: '#cf1322', border: '1px solid #ffa39e', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold', fontSize: '18px' }}
+                                type="button"
+                                onClick={() => setCalcModal(prev => ({ ...prev, value: prev.value.slice(0, -1) }))}
+                                style={{ padding: '0 15px', backgroundColor: '#fff1f0', color: '#cf1322', border: '1px solid #ffa39e', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold', fontSize: '18px', touchAction: 'manipulation' }}
                             >
                                 ⌫
                             </button>
@@ -550,8 +543,8 @@ function Home() {
                             {['7', '8', '9', '+', '4', '5', '6', '-', '1', '2', '3', '*', '0', '.', 'C', '/'].map(btn => (
                                 <button
                                     key={btn}
-                                    onMouseDown={(e) => {
-                                        e.preventDefault();
+                                    type="button"
+                                    onClick={() => {
                                         if (btn === 'C') {
                                             setCalcModal(prev => ({ ...prev, value: '' }));
                                         } else {
@@ -562,7 +555,7 @@ function Home() {
                                         padding: '15px 0', fontSize: '18px', fontWeight: 'bold', cursor: 'pointer',
                                         backgroundColor: ['+', '-', '*', '/'].includes(btn) ? '#e6f7ff' : btn === 'C' ? '#fff1f0' : '#f5f5f5',
                                         color: ['+', '-', '*', '/'].includes(btn) ? '#096dd9' : btn === 'C' ? '#cf1322' : '#333',
-                                        border: '1px solid #ddd', borderRadius: '6px', userSelect: 'none'
+                                        border: '1px solid #ddd', borderRadius: '6px', userSelect: 'none', touchAction: 'manipulation'
                                     }}
                                 >
                                     {btn}
@@ -571,11 +564,9 @@ function Home() {
                         </div>
 
                         <button
-                            onMouseDown={(e) => {
-                                e.preventDefault();
-                                handleSaveCalcValue();
-                            }}
-                            style={{ width: '100%', padding: '14px', backgroundColor: '#2196F3', color: 'white', border: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer' }}
+                            type="button"
+                            onClick={handleSaveCalcValue}
+                            style={{ width: '100%', padding: '14px', backgroundColor: '#2196F3', color: 'white', border: 'none', borderRadius: '6px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', touchAction: 'manipulation' }}
                         >
                             CHỐT SỐ (ENTER)
                         </button>
@@ -586,12 +577,12 @@ function Home() {
             {/* MODAL CẢNH BÁO CHƯA KIỂM HẾT ĐỒ */}
             {uncheckedAlert.show && (
                 <div style={{
-                    position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+                    position: 'fixed', inset: 0,
                     backgroundColor: 'rgba(0,0,0,0.6)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 9999
                 }}>
                     <div style={{
                         backgroundColor: 'white', padding: '20px', borderRadius: '12px', width: '90%', maxWidth: '450px',
-                        boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+                        boxShadow: '0 4px 15px rgba(0,0,0,0.2)', boxSizing: 'border-box'
                     }}>
                         <h3 style={{ margin: '0 0 15px 0', color: '#d32f2f', borderBottom: '1px solid #eee', paddingBottom: '10px' }}>
                             ⚠️ PHÁT HIỆN HÀNG CHƯA KIỂM
@@ -621,12 +612,12 @@ function Home() {
             {/* MODAL AUDIT LOG */}
             {showAuditModal && (
                 <div style={{
-                    position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+                    position: 'fixed', inset: 0,
                     backgroundColor: 'rgba(0,0,0,0.6)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 9999
                 }} onClick={() => setShowAuditModal(false)}>
                     <div style={{
                         backgroundColor: 'white', padding: '20px', borderRadius: '12px', width: '95%', maxWidth: '650px',
-                        maxHeight: '85vh', display: 'flex', flexDirection: 'column', boxShadow: '0 4px 15px rgba(0,0,0,0.2)', position: 'relative'
+                        maxHeight: '85vh', display: 'flex', flexDirection: 'column', boxShadow: '0 4px 15px rgba(0,0,0,0.2)', position: 'relative', boxSizing: 'border-box'
                     }} onClick={(e) => e.stopPropagation()}>
                         <button onClick={() => setShowAuditModal(false)} style={{
                             position: 'absolute', top: '10px', right: '10px', border: 'none', background: '#f5f5f5',
@@ -672,12 +663,12 @@ function Home() {
             {/* MODAL THÔNG TIN SẢN PHẨM */}
             {showModal && selectedItemInfo && (
                 <div style={{
-                    position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+                    position: 'fixed', inset: 0,
                     backgroundColor: 'rgba(0,0,0,0.6)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 9999
                 }} onClick={() => setShowModal(false)}>
                     <div style={{
                         backgroundColor: 'white', padding: '20px', borderRadius: '12px', width: '85%', maxWidth: '350px',
-                        textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.2)', position: 'relative'
+                        textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.2)', position: 'relative', boxSizing: 'border-box'
                     }} onClick={(e) => e.stopPropagation()}>
                         <button onClick={() => setShowModal(false)} style={{
                             position: 'absolute', top: '10px', right: '10px', border: 'none', background: '#f5f5f5',
@@ -764,7 +755,7 @@ function Home() {
                         </div>
                     </div>
                 ) : (
-                    <div style={{ padding: '10px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <div style={{ padding: '10px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column', height: '100%', boxSizing: 'border-box' }}>
                         <h2 style={{ textAlign: 'center', color: '#1890ff', margin: '0 0 20px 0' }}>📋 BẢNG TỔNG HỢP CUỐI CÙNG</h2>
 
                         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px', backgroundColor: '#f0f5ff', padding: '15px', borderRadius: '8px' }}>
@@ -773,36 +764,33 @@ function Home() {
                         </div>
 
                         <div style={{ overflowY: 'auto', flex: 1, border: '1px solid #eee' }}>
-                                    <table border="1" style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'center' }}>
-                                        <thead style={{ position: 'sticky', top: 0, backgroundColor: '#fafafa', boxShadow: '0 2px 2px rgba(0,0,0,0.1)' }}>
-                                            <tr>
-                                                <th style={{ padding: '12px' }}>Tên Hàng</th>
-                                                <th>Khu Vực</th>
-                                                <th>Hàng Lẻ</th>
-                                                <th>Hàng Nguyên</th>
+                            <table border="1" style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'center' }}>
+                                <thead style={{ position: 'sticky', top: 0, backgroundColor: '#fafafa', boxShadow: '0 2px 2px rgba(0,0,0,0.1)' }}>
+                                    <tr>
+                                        <th style={{ padding: '12px' }}>Tên Hàng</th>
+                                        <th>Khu Vực</th>
+                                        <th>Hàng Lẻ</th>
+                                        <th>Hàng Nguyên</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {allGridData.map((item, index) => {
+                                        const hasData = (item.rawInput && String(item.rawInput).trim() !== '') || (item.unopenedInput && String(item.unopenedInput).trim() !== '');
+                                        return (
+                                            <tr key={item.id} style={{ backgroundColor: hasData ? '#fffbe6' : '#fff' }}>
+                                                <td style={{ padding: '10px', textAlign: 'left', fontWeight: 'bold' }}>{index + 1}. {item.itemName}</td>
+                                                <td style={{ fontSize: '12px', color: '#666' }}>{item.locations?.join(', ') || 'Chung'}</td>
+                                                <td style={{ color: '#cf1322', fontWeight: 'bold', fontSize: '15px' }}>
+                                                    {item.calculatedValue || '-'}
+                                                </td>
+                                                <td style={{ color: '#096dd9', fontWeight: 'bold', fontSize: '15px' }}>
+                                                    {item.unopenedInput || '-'}
+                                                </td>
                                             </tr>
-                                        </thead>
-                                        <tbody>
-                                            {allGridData.map((item, index) => {
-                                                const hasData = (item.rawInput && String(item.rawInput).trim() !== '') || (item.unopenedInput && String(item.unopenedInput).trim() !== '');
-                                                return (
-                                                    <tr key={item.id} style={{ backgroundColor: hasData ? '#fffbe6' : '#fff' }}>
-                                                        <td style={{ padding: '10px', textAlign: 'left', fontWeight: 'bold' }}>{index + 1}. {item.itemName}</td>
-                                                        <td style={{ fontSize: '12px', color: '#666' }}>{item.locations?.join(', ') || 'Chung'}</td>
-
-                                                        {/* 🌟 HÀNG LẺ BÂY GIỜ CHỈ HIỂN THỊ KẾT QUẢ ĐÃ CHIA/TÍNH TOÁN */}
-                                                        <td style={{ color: '#cf1322', fontWeight: 'bold', fontSize: '15px' }}>
-                                                            {item.calculatedValue || '-'}
-                                                        </td>
-
-                                                        <td style={{ color: '#096dd9', fontWeight: 'bold', fontSize: '15px' }}>
-                                                            {item.unopenedInput || '-'}
-                                                        </td>
-                                                    </tr>
-                                                );
-                                            })}
-                                        </tbody>
-                                    </table>
+                                        );
+                                    })}
+                                </tbody>
+                            </table>
                         </div>
 
                         <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
